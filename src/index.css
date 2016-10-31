@@ -1,0 +1,40 @@
+*:focus {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body, input, button, select, option, textarea {
+    font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+    color: #fff;
+    background: #0C0E1C;
+}
+
+h1 {
+    font-family: Ubuntu, Roboto, Helvetica Neue, Helvetica, sans-serif;
+}
+
+button {
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+textarea {
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+}
