@@ -4,9 +4,10 @@ import {autorun} from 'mobx'
 export function startRouter(store) {
   // update state on url change
   new Router({
-    // TODO
+    '/posts/:id': (id) => store.showPost(id),
+    '/posts/': () => store.showOverview(),
   }).configure({
-    notfound: () => {/* TODO */},
+    notfound: () => store.showOverview(),
     html5history: true
   }).init()
 

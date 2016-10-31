@@ -13,6 +13,11 @@ https://medium.com/@mweststrate/how-to-decouple-state-and-ui-a-k-a-you-dont-need
 
 Find out more about MobX: http://mobxjs.github.io/mobx/
 
+These posts are especially valuable:
+
+- https://medium.com/@mweststrate/pure-rendering-in-the-light-of-time-and-state-4b537d8d40b1
+- https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254
+
 Our reasons why we prefer React: https://medium.com/techboi/why-react-d35dc6b2a2f3
 
 Some study tips for React: https://medium.com/techboi/study-tips-for-react-44e43306708b
